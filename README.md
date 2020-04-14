@@ -12,7 +12,7 @@
 
 [Live on Heroku](https://optimice.herokuapp.com/) working in progress.
 
-[GitHub Repo](https://github.com/jasontsemf/OptimiceDashboard) of the
+[GitHub Repo](https://github.com/jasontsemf/OptimiceDashboard) of the web platform
 
 ## Video Demos
 
