@@ -10,6 +10,8 @@
 
 ## Complementary Web Platform
 
+![Web Platform](README/homepage.png)
+
 [Live on Heroku](https://optimice.herokuapp.com/) working in progress.
 
 [GitHub Repo](https://github.com/jasontsemf/OptimiceDashboard) of the web platform
