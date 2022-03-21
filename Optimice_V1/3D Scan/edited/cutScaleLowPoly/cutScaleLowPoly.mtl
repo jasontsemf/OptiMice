@@ -1,0 +1,54 @@
+newmtl TextureAtlas_1001
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+d 1
+Ns 0.00000
+illum 1
+map_Kd cutScaleLowPoly_TextureAtlas_1001.png
+
+newmtl TextureAtlas_1002
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+d 1
+Ns 0.00000
+illum 1
+map_Kd cutScaleLowPoly_TextureAtlas_1002.png
+
+newmtl TextureAtlas_1003
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+d 1
+Ns 0.00000
+illum 1
+map_Kd cutScaleLowPoly_TextureAtlas_1003.png
+
+newmtl TextureAtlas_1004
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+d 1
+Ns 0.00000
+illum 1
+map_Kd cutScaleLowPoly_TextureAtlas_1004.png
+
+newmtl TextureAtlas_1005
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+d 1
+Ns 0.00000
+illum 1
+map_Kd cutScaleLowPoly_TextureAtlas_1005.png
+
+newmtl TextureAtlas_1006
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+d 1
+Ns 0.00000
+illum 1
+map_Kd cutScaleLowPoly_TextureAtlas_1006.png
+
+newmtl NO_MATERIAL
+Ka 1.000000 0.000000 0.000000
+Ks 0.000000 0.000000 0.000000
+d 1
+Ns 0.00000
+illum 1
