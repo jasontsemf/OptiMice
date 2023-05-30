@@ -74,7 +74,7 @@ void setup() {
   Serial.begin(115200);
   
 #if defined (__AVR_ATmega32U4__)
-  while(!Serial);
+//  while(!Serial);
   delay(5000);
 #endif
 

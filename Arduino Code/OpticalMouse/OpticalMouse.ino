@@ -1,6 +1,6 @@
 const int LEDPin = 14; 
-const int OptiDataPin = 2;
-const int OptiClkPin = 1;
+const int OptiDataPin = 10;
+const int OptiClkPin = 9;
 
 const unsigned char LedOnStatus = 0x11;
 
@@ -122,8 +122,10 @@ void OptiSetup(){
   while(1){
   OptiBegin();
   PId1 = OptiProductId1();
+  Serial.println(PId1);
   if( PId1 == correctPId1){
     isOptiConnected = 1;
+    Serial.println("optical connected");
     break;
   }
   cnt++;
@@ -205,6 +207,10 @@ void loop() {  // FIXME wdtが作動しないように
 
     Serial.print("id1=");
     Serial.print(OptiProductId1(), DEC);
+    if(OptiProductId1()==48){
+      pinMode(8, OUTPUT);
+      digitalWrite(8, HIGH);
+    }
     Serial.print(" motion=");
     Serial.print(OptiIsMotion(), DEC);
     Serial.print(" x=");
